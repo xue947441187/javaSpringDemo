@@ -7,4 +7,5 @@ import org.springframework.stereotype.Service;
 @Service
 public interface UserService {
     public ResultVo queryAll();
+    public ResultVo queryOne(long id);
 }
